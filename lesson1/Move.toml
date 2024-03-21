@@ -1,0 +1,16 @@
+[package]
+name = "lesson1"
+version = "1.0.0"
+authors = []
+
+[addresses] # addresses for production
+Lesson1='310bdc27c18d65f6f29f0c46a7871e57c43ed6b41efc93330de5f0edeeb384cc'
+
+[dev-addresses] # addresses for development
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git" # git repository URL
+rev = "mainnet" # git brach name
+subdir = "aptos-move/framework/aptos-framework" # relative path to the package
+
+[dev-dependencies]
