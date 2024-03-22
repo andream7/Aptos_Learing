@@ -11,6 +11,7 @@ module 0x42::Types{
 
         let num_u256:u256 = 100_000; 
 
+        // 不同类型运算，先进行类型转换
         let num_sum: u256 = (num_u8 as u256) + num_u256;
         print(&num_u8);
         print(&num_u8_2);

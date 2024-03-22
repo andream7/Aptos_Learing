@@ -10,6 +10,8 @@ module 0x42::Lesson2{
         let wallet = Wallet { balance: 1000 };
         let waller2 = wallet;
         // print(&wallet.balance);
+
+        // 所有权从wallet转移到wallet2
         print(&waller2.balance)
     }
 }
